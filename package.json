@@ -1,0 +1,20 @@
+{
+  "name": "DeathMatch",
+  "description": "",
+  "url": "http://127.0.0.1:3000",
+  "version": "0.0.5",
+  "private": true,
+  "scripts": {
+    "preinstall": "sudo npm install nodev -g",
+    "start": "nodev ./bin/www"
+  },
+  "dependencies": {
+    "express": "^4.10.6",
+    "mysql": "^2.5.4",
+    "express-session": "^1.8.2",
+    "winston": "^0.8.3"
+  },
+  "devDependencies": {
+    "nodev": "^0.8.6"
+  }
+}
