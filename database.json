@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "host": "localhost",
+        "user": { "ENV" : "root" },
+        "password" : { "ENV" : "developer" },
+        "database": "deathMatch",
+        "driver": "mysql",
+        "multipleStatements": true
+      },
+      "prod": {
+        "host": "localhost",
+        "user": "root",
+        "password" : "developer",
+        "database": "deathMatch",
+        "driver": "mysql",
+        "multipleStatements": true,
+        "charset":"utf8"
+      }
+}
